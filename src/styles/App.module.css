@@ -1,0 +1,16 @@
+.container {
+    max-width: 1200px;
+    min-width: 800px;
+    margin: 40px auto;
+    padding: 34px 30px;
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}

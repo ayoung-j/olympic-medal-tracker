@@ -1,8 +1,7 @@
-import React from "react";
 import Button from "./Button";
 
-const Country = ({ country, handleDeleteCountry }) => {
-    const { id, name, goldMedal, silverMedal, bronzeMedal } = country;
+const CountryTableItem = ({ item, onDeleteClick }) => {
+    const { name, goldMedal, silverMedal, bronzeMedal } = item;
 
     return (
         <tr>
@@ -11,7 +10,7 @@ const Country = ({ country, handleDeleteCountry }) => {
             <td>{silverMedal}</td>
             <td>{bronzeMedal}</td>
             <td>
-                <Button className="delete-button" onClick={() => handleDeleteCountry(id)}>
+                <Button className="delete-button" onClick={onDeleteClick}>
                     삭제
                 </Button>
             </td>
@@ -19,4 +18,4 @@ const Country = ({ country, handleDeleteCountry }) => {
     );
 };
 
-export default Country;
+export default CountryTableItem;

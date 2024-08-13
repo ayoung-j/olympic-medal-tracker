@@ -1,0 +1,32 @@
+button {
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    border-radius: var(--border-radius-sm);
+    transition: all ease 0.4s;
+}
+
+/* 기본 */
+.default-button {
+    padding: 10px 20px;
+    border-radius: var(--border-radius-sm);
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    background-color: var(--yellow-color);
+}
+.default-button:hover {
+    background-color: var(--yellow-hover-color);
+}
+
+/* 삭제 */
+.delete-button {
+    padding: 4px 10px;
+    border-radius: var(--border-radius-sm);
+    font-weight: 500;
+    color: #fff;
+    background-color: var(--red-color);
+}
+.delete-button:hover {
+    background-color: var(--red-hover-color);
+}

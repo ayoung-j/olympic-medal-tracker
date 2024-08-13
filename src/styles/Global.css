@@ -14,10 +14,3 @@ body {
 input, button{
     font-family: var(--font-family);
 }
-button{
-    border:0;
-    outline: 0;
-    cursor: pointer;
-    border-radius: var(--border-radius-sm);
-    transition: all ease 0.4s;
-}

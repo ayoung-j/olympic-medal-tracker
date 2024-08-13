@@ -1,0 +1,23 @@
+html {
+    font-family: var(--font-family);
+    background-color: #f6f6f6;
+    overflow-x: hidden;
+}
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+::placeholder {
+    color: rgba(0, 0, 0, 0.5);
+}
+input, button{
+    font-family: var(--font-family);
+}
+button{
+    border:0;
+    outline: 0;
+    cursor: pointer;
+    border-radius: var(--border-radius-sm);
+    transition: all ease 0.4s;
+}

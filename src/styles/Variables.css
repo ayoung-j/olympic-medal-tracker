@@ -1,0 +1,10 @@
+:root {
+    --font-family: "Pretendard", "Nanum Gothic", "Apple SD Gothic Neo", Helvetica, Arial, sans-serif;
+    --red-color: #dc3545;
+    --red-hover-color: #c82333;
+    --yellow-color: #f5c200;
+    --yellow-hover-color: #ddaf00;
+    --blue-color: #3e7ed7;
+    --border-radius: 8px;
+    --border-radius-sm: 4px;
+}

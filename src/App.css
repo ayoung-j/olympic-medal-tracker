@@ -1,0 +1,103 @@
+.container {
+    max-width: 1200px;
+    min-width: 800px;
+    margin: 40px auto;
+    padding: 34px 30px;
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+.text {
+    font-size: 16px;
+    text-align: center;
+}
+
+.input-field input,
+.button-group button {
+    height: 42px;
+}
+
+.input-group {
+    display: flex;
+    align-items: flex-end;
+    gap: 8px;
+}
+.input-field label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+}
+.input-field input {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #ddd;
+    border-radius: var(--border-radius-sm);
+    font-size: 16px;
+}
+
+.button-group {
+    display: flex;
+    flex: 1 0 auto;
+    align-items: center;
+    gap: 8px;
+}
+
+.default-button {
+    padding: 10px 20px;
+    border-radius: var(--border-radius-sm);
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    background-color: var(--yellow-color);
+}
+.default-button:hover {
+    background-color: var(--yellow-hover-color);
+}
+
+.delete-button {
+    padding: 4px 10px;
+    border-radius: var(--border-radius-sm);
+    font-weight: 500;
+    color: #fff;
+    background-color: var(--red-color);
+}
+.delete-button:hover {
+    background-color: var(--red-hover-color);
+}
+
+.table-area {
+    margin-top: 30px;
+}
+table {
+    width: 100%;
+    overflow: hidden;
+    border-radius: var(--border-radius);
+    background-color: #f6f6f6;
+}
+th,
+td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+    text-align: center;
+}
+th {
+    font-weight: 500;
+    background-color: var(--blue-color);
+    color: #fff;
+}
+tr:nth-child(2n) {
+    background-color: #f4f4f4;
+}
+tr:hover {
+    background-color: #ddd;
+}

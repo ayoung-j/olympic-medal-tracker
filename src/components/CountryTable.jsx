@@ -9,7 +9,7 @@ const CountryTable = ({ countries, onDeleteClick }) => {
     if (sortedCountries.length === 0) {
         return (
             <div className={styles[`table-area`]}>
-                <p className="text">아직 추가된 국가가 없습니다. 메달을 추가하세요.</p>
+                <p className={styles[`text`]}>아직 추가된 국가가 없습니다. 메달을 추가하세요.</p>
             </div>
         );
     } else {

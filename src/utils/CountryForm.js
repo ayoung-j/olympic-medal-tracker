@@ -1,5 +1,6 @@
 export const validateCountryForm = (form) => {
-    if (form.name === "") {
+    var blank = /^\s+|\s+$/g;
+    if (form.name === "" || form.name.replace(blank, "") === "") {
         return {
             isValid: false,
             message: "국가명을 입력해주세요.",
